@@ -27,7 +27,7 @@ public class primitiveTypes {
         //one character
         char myChar = 'W';
         String myString = "Hello";
-
+        //Vamos a agregar un comentario para poder hacer el tarcking de los comemntarios en giothub.
 
 
     }
