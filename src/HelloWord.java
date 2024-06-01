@@ -1,4 +1,4 @@
-public class Helloword.java {
+public class HelloWord{
     public static void main(String[] args) {
         System.out.printf("\n Hello word!\n");
         /*System.out.printf("Vamos a hacer un ciclo que cuente hasta 5: \n");
