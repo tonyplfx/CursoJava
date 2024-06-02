@@ -1,3 +1,4 @@
+
 public class HelloWord{
     public static void main(String[] args) {
         System.out.printf("\n Hello word!\n");
@@ -8,3 +9,4 @@ public class HelloWord{
             System.out.println("i = "+ i);*/
         }
     }
+
