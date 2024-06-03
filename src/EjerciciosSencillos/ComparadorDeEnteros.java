@@ -20,22 +20,22 @@ public class ComparadorDeEnteros {
         numero2 = entrada.nextInt();//Lee el segundo numero entero
 
         if (numero1 == numero2)
-            System.out.println("%d == %d ,numero1, numero2");
+            System.out.printf("%d == %d%n" ,numero1, numero2);
 
         if (numero1 != numero2)
-            System.out.println("%d != %d , numero1, numero2");
+            System.out.printf("%d != %d%n", numero1, numero2);
 
         if (numero1 < numero2)
-            System.out.println("%d < %d, numero1, numero2");
+            System.out.printf("%d < %d%n", numero1, numero2);
 
         if (numero1 > numero2)
-            System.out.println("%d > %d, numero1, numero2");
+            System.out.printf("%d > %d%n", numero1, numero2);
 
         if (numero1 <= numero2)
-            System.out.println("%d <= %d, numero1, numero2");
+            System.out.printf("%d <= %d%n", numero1, numero2);
 
         if(numero1 >= numero2)
-            System.out.println("%d >= %d, numero1, numero2");
+            System.out.printf("%d >= %d%n", numero1, numero2);
 
     }
 
