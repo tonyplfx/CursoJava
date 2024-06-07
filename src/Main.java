@@ -1,17 +1,38 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!\n");
-        System.out.printf("Vamos a hacer un ciclo que cuente hasta 5: \n");
+import java.util.Scanner;
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = "+ i);
-        }
+public class Main {
+
+    public static void main (String[] ags){
+
+        Scanner entrada = new Scanner(System.in);
+
+        int number1;
+        int number2;
+        int suma;
+        int resta;
+        int mult;
+        int div;
+        int modulo;
+
+        System.out.print("Introduce el primer número: ");
+        number1 = entrada.nextInt();
+
+        System.out.print("Introduce el segundo numero: ");
+        number2 = entrada.nextInt();
+
+        suma = number1 + number2;
+        resta = number1 - number2;
+        mult = number1 * number2;
+        div = number1/number2;
+        modulo = number1 % number2;
+
+        System.out.println("Buenas tardes damas y caballeros, el resultado de nuestras operaciones es el siguiente: ");
+        System.out.println("El resultado de la suma es el siguiente: " + suma);
+        System.out.println("El resultado de la resta es el siguiente: " + resta);
+        System.out.println("El resultado de la multiplicacion es el siguiente: " + mult);
+        System.out.println("El resultado de la división es el siguiente: " + div);
+        System.out.println("El resultado del modulo es el siguiente: " +modulo);
+
+
     }
 }
-
