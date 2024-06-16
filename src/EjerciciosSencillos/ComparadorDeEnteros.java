@@ -4,7 +4,7 @@ package EjerciciosSencillos;
 import java.awt.*;
 import java.util.Scanner;
 
-public class ComparadorDeEnteros {
+public class  ComparadorDeEnteros {
     //El metodo main empieza la ejecución de la aplicacion de java
     public static void main(String[] args) {
         //Se crea el objeto Scanner para obtener la entrada

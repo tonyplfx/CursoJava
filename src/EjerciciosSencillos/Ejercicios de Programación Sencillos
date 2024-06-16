@@ -1,0 +1,7 @@
+1.- Escriba una aplicacion que pida al usuario que escriba dos numeros, que obtenga los numeros del usuario e imprima
+la suma, prducto, diferencia y el cociente (division) de los numeros. Use las tecnicas que se muestran en el libro de
+programación.
+
+2.- Escriba una aplicación que pida al usuario dos enteros, que obtenga los numeros del usuario y muestre el numero mas
+grande, seguido de las palabras "Es más grande". Si los numeros son iguales, imprima el mensaje "Estos numeros son iguales"
+
