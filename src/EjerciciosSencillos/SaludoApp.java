@@ -15,7 +15,7 @@ public class SaludoApp {
         boolean result = (reminder == 0) ? true : false;
         System.out.println("El resultado es el siguiente: "+ result);
 
-        if(result)
+
 
     }
 }
