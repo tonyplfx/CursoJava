@@ -1,6 +1,8 @@
+package EjerciciosSencillos;
+
 import java.util.Scanner;
 
-public class Main {
+public class OperacionesBasicas {
 
     public static void main (String[] ags){
 

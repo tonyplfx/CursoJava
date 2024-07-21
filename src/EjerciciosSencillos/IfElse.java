@@ -3,27 +3,19 @@ package EjerciciosSencillos;
 public class IfElse {
     public static void main(String[] args) {
 
-        boolean gameOver = true;
-        int score = 800;
-        int levelCompleted = 5;
-        int bonus = 100;
+        calculateScore(true, 800, 5,200 );
+        calculateScore(true, 10000, 8, 200);
+
+    }
+
+    public static void calculateScore(boolean gameOver, int score, int levelCompleted, int bonus){
 
         int finalScore = score;
 
         if (gameOver){
             finalScore += (levelCompleted * bonus);
+            finalScore += 1000;
             System.out.println("Your final score was: " + finalScore);
-        }
-        boolean newgameOver = true;
-        int newscore = 800;
-        int newlevelCompleted = 5;
-        int newbonus = 100;
-
-        int newfinalScore = score;
-
-        if (gameOver){
-            newfinalScore += (newlevelCompleted * newbonus);
-            System.out.println("Your final score was: " + newfinalScore);
         }
     }
 }
