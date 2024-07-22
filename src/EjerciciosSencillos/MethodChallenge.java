@@ -8,11 +8,22 @@ public class MethodChallenge {
         int HighScorePosition = calculateHighScorePosition(1500);
         displayHighScorePosition("Tim", HighScorePosition);
 
+        HighScorePosition = calculateHighScorePosition(1000);
+        displayHighScorePosition("Bill", HighScorePosition);
+
+        HighScorePosition = calculateHighScorePosition(500);
+        displayHighScorePosition("Mar", HighScorePosition);
+
+        HighScorePosition = calculateHighScorePosition(100);
+        displayHighScorePosition("Bob", HighScorePosition);
+
+        HighScorePosition = calculateHighScorePosition(25);
+        displayHighScorePosition("Sam", HighScorePosition);
         //Declaration of methods
     }
 
         public static void displayHighScorePosition(String PlayerName,int HighScorePosition){
-            System.out.printf(PlayerName + " managed to get into position " +HighScorePosition + " on the high score list");
+            System.out.println(PlayerName + " managed to get into position " +HighScorePosition + " on the high score list");
         }
 
         public static int calculateHighScorePosition (int PlayerScore){
