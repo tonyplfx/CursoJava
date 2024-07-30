@@ -9,12 +9,11 @@ public class SpeedConverter {
         double kilometersPerHour;
 
         //Data Entry
-        System.out.println("Give me the kilometers Per Hour to convert");
-        kilometersPerHour = sc.nextDouble();
-        System.out.println("The km are = "+ kilometersPerHour);
+        System.out.print("Give me the kilometers Per Hour to convert = ");
         //Calling to the functions
-        long milesPerHour = toMilesPerHour(kilometersPerHour);
-        System.out.println("The miles per hour = "+ milesPerHour);
+        long milesPerHour = toMilesPerHour(kilometersPerHour = sc.nextDouble());
+        printConversion(milesPerHour,kilometersPerHour);
+
     }
 
     public static long toMilesPerHour (double kilometersPerHour){
@@ -26,14 +25,15 @@ public class SpeedConverter {
         }
 
     }
-/*
-    public static void printConversion(long mi,long kilometersPerHour){
-        if (mi < 0) {
+
+    public static void printConversion(long milesPerHour,double kilometersPerHour){
+        if (milesPerHour < 0) {
             System.out.println("Invalid Number");
             return;
         }else {
-            System.out.println(mi + "mi/h =" + kilometersPerHour +"km/h");
+            System.out.println("The km/h are = "+ kilometersPerHour);
+            System.out.println("The mi/h are = "+ milesPerHour);
         }
     }
- */
+
 }
