@@ -21,16 +21,15 @@ public class SpeedConverter {
         if (kilometersPerHour <= 0)
             return -1;
         else {
-             return Math.round((long) (kilometersPerHour * 0.6213));
+            return Math.round((long) (kilometersPerHour * 0.6213));
         }
-
     }
 
     public static void printConversion(long milesPerHour,double kilometersPerHour){
         if (milesPerHour < 0) {
             System.out.println("Invalid Number");
             return;
-        }else {
+        }else{
             System.out.println("The km/h are = "+ kilometersPerHour);
             System.out.println("The mi/h are = "+ milesPerHour);
         }
