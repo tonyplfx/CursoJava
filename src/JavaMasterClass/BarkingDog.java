@@ -23,17 +23,18 @@ public class BarkingDog {
         System.out.println("What hour in the day is ?");
         hourOfDay = sc.nextInt();
 
-        //Calling the function
+        //Calling the methods
         shouldIWakeUp = shouldWakeUp(barking, hourOfDay);
+        printwakeUp(shouldIWakeUp);
+
+    }
+    public static void printwakeUp (boolean shouldIWakeUp){
         if (shouldIWakeUp){
             System.out.println("You need to wakeup");
         } else {
             System.out.println("You don't need to wake up");
         }
-
-
     }
-
     public static boolean shouldWakeUp(boolean barking, int hourOfDay) {
         if (barking && (8 > hourOfDay || hourOfDay > 22)){
             return true;
