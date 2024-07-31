@@ -1,4 +1,4 @@
-package EjerciciosSencillos;
+package JavaMasterClass;
 import java.util.Scanner;
 
 public class MegaBytesConverter {
