@@ -1,6 +1,8 @@
 package JavaMasterClass;
 
+//In this class the method makes 3 comparations
 public class LeapYear {
+    //In this section we give the value of the method.
     public static void main(String[] args) {
         isLeapYear(2000);
     }
