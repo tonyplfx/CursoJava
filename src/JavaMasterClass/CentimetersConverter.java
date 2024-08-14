@@ -6,7 +6,7 @@ public class CentimetersConverter {
         Scanner sc = new Scanner(System.in);
         System.out.println("Give us your height in ft and inch");
         double v = convertToCentimeters(sc.nextInt(), sc.nextInt());
-        System.out.printconvertToCentimeters(v);
+        System.out.println ("The total number in Cm is : " + convertToCentimeters(v));
     }
     public static double convertToCentimeters(double inches){
        return inches *= 2.54;
